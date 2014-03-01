@@ -1,0 +1,40 @@
+html {
+	width:100%;
+	height:100%;
+	background:url('./tunel.jpg') center center no-repeat;
+}
+
+html, body {
+	color: #F3F7F8;
+	line-height: 1.5;
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	background-color: #020202;
+	-webkit-font-smoothing: antialiased;
+}
+
+a, a:hover {
+	color: #63c0f5;
+	text-shadow: 0 0 5px rgba(104, 182, 255, 0.8);
+}
+
+p {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+	bottom: 0px;
+	left: 30%;
+	right: 30%;
+	width: 40%;
+}
+ul {
+	position: fixed;
+	bottom: 0px;
+	left: -20px;
+}
+ul li {
+	float: left;
+	list-style: none;
+	margin: 0em 0.5em;
+}
